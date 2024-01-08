@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exploring js-tutorail </title>
+    <script src="/day 4/demo.js"></script>
+    
+     <style>
+        button{
+            background-color: whitesmoke;
+            font-size: 20px;
+            padding: 10px;
+            margin: 20px;
+        }
+        button:hover{
+            background-color: aqua;
+        }
+        #demo{
+            font-size: 30px;
+            text-align: center;
+            color: bisque;
+        }
+        p{
+            font-size: 30px;
+        }
+     </style>
+     
+</head>
+<body>
+    <p1 id="demo"> when u click the button this things r diable and add new senetence </p1> <br>
+    <button type="submit" onclick="document.getElementById('demo').innerHTML='replace by javascript'"> click and see changes using js </button>
+     <h4 id="possible"> is skills of himanshu converts in to amarendra ? is it possible </h4> <br>
+
+     <button type="submit" onclick="madebyhimanshu()"> click and see himanshu to amarendra</button>
+
+     <div style="background-color: aqua;" id="change">
+        this is himanshu singh from varani
+     </div>
+     <p id="tikku"> i am preparing for gate exam </p> <br>
+     <button type="submit" onclick="callmyfunction()"> click and change the behavior </button>
+     <script>
+        document.getElementById('change').innerHTML="no its from bhadohi  see without any event occur in js we can easily change the content ";
+        document.getElementById('change').style.fontSize="25px";
+        document.getElementById('change').style.background="green";
+        
+     </script>
+</body>
+</html>

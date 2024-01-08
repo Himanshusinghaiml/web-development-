@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning javasripts </title>
+    <style>
+        p{
+            font-size: 25px;
+
+        }
+        button{
+            background-color: aqua;
+            color: black;
+            padding: 10px;
+            margin: 20px;
+        }
+        button:hover{
+            background-color: goldenrod;
+        }
+    </style>
+    <script>
+     function calledfunction()
+     {
+        document.getElementById('check').innerHTML="this is not himanshu singh ,he is great software engineer ";
+        document.getElementById('check').style.background="green";
+     }
+    </script>
+</head>
+<body>
+    <p id="check">this is himanshu singh</p>
+    <button type="submit" onclick="calledfunction()"> click and change the behavior4</button>
+     <p id="change"> change it content without any event occur </p>
+
+     <p id="modify">  hello how r u enginners </p>
+     <button type="submit" onclick="myfun()"> click it changes in within a function </button>
+     <script>
+        document.getElementById('change').style.background="green";
+        document.getElementById('change').style.color="pink";
+        function myfun()
+        {
+            var data=document.getElementById('modify');
+            data.innerHTML="hello himanshu singh  u r become full stack developer ";
+            data.style.backgroundColor="blue";
+        }
+
+     </script>
+
+    
+</body>
+</html>
