@@ -1,0 +1,14 @@
+JavaScript can "display" data in different ways:
+
+for html element :- document.getElementId()
+
+for testing purpose using :- document.write()
+The document.write() method should only be used for testing.
+Using document.write() after an HTML document is loaded, will delete all existing HTML:
+
+
+for output on console using :- console.log()
+For debugging purposes, you can call the console.log() method in the browser to display data.
+
+for window alert using :- window.alert()
+ to display the data , we can use alert box 
