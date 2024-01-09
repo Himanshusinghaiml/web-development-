@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    
+ <p id="change"> we r engineer </p>
+ <button type="submit" onclick="myfun()"> click the button and change the behavior</button>
+ <div>
+    we r changing the content
+ </div>
+ <button type="submit" onclick="document.getElementsByTagName('div').innerHTML='yes changes ';"> click it </button>
+ <script>
+function myfun()
+{
+    document.getElementById('change').innerHTML=" we r all fullstack developers ";
+    document.getElementById('change').style.background="red";
+    document.getElementById('change').style.fontFamily=serif;
+    
+}
+ </script>
+</body>
+</html>

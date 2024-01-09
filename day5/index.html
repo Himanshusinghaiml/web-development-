@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 5 of dom in js </title>
+    <style>
+        #change{
+            margin: 20px;
+            border: 5px solid maroon;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    
+    <p id="change" onmouseover="myfun()"></p>  <br>
+
+    <h1 id="c">this is himanshu singh </h1>
+    <script>
+        let x,y,z;
+        x=5;
+        y=10;
+        z=x+y;
+        document.getElementById('change').innerHTML="the value sum of two number is :"+z+".";
+    function myfun()
+    {
+        document.getElementById('c').style.background="red";
+    }
+    </script>
 </body>
 </html>

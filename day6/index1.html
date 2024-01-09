@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM -array</title>
+</head>
+<body>
+    
+ <h3 id="change"></h3>
+  
+ <script>
+
+let arr=["himanshu","singh","aiml",54,78];
+let ans=arr[0];
+let ans1=arr[1];
+document.getElementById('change').innerHTML=ans;
+document.getElementById('change').innerHTML=ans1;
+let both=ans1+" "+ans;
+document.getElementById('change').innerHTML=arr;
+let store="";
+for(var i=0;i<arr.length;i++)
+{
+   store+=arr[i]+"<br>";
+}
+document.getElementById('change').innerHTML=store;
+
+ </script>
+
+</body>
+</html>
